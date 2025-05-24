@@ -1,0 +1,23 @@
+
+	public static void main(String[] args) 
+	{
+	String str1="ABHI";
+	String str2="IHBAN";
+	
+	 char[] nstr1 = str1.toLowerCase().toCharArray();
+	 char[] nstr2 = str2.toLowerCase().toCharArray();
+	 
+	 Arrays.sort(nstr1);
+	 Arrays.sort(nstr2);
+	 
+	if( Arrays.equals(nstr1, nstr2))
+	 {
+		 System.out.println("String is annagram");
+	 }
+	else
+	{
+		System.out.println("String is not anangram");
+	}
+
+	}
+
