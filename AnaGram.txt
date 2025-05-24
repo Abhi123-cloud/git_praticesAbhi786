@@ -17,6 +17,7 @@
 	else
 	{
 		System.out.println("String is not anangram");
+		System.out.println("String is not alwas anangram");
 	}
 
 	}
