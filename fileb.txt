@@ -2,3 +2,4 @@
 File b document
 Doing new changes
 UPdatin file
+Squeash merge
